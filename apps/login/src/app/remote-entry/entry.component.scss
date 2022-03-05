@@ -1,3 +1,4 @@
+
 .login-app {
   width: 30vw;
   border: 2px dashed black;
@@ -13,4 +14,18 @@
 }
 label {
   display: block;
+}
+
+.img {
+  height: 30px;
+  width: 30px;
+  background-color: yellow;
+  background-size: contain;
+  &.svg {
+    background-image: url('../../assets/gh-logo.svg');
+  }
+
+  &.png {
+    background-image: url('../../assets/img.png');
+  }
 }
