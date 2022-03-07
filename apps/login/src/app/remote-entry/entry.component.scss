@@ -22,10 +22,10 @@ label {
   background-color: yellow;
   background-size: contain;
   &.svg {
-    background-image: url('../../assets/gh-logo.svg');
+    background-image: url('/assets/gh-logo.svg');
   }
 
   &.png {
-    background-image: url('../../assets/img.png');
+    background-image: url('/assets/img.png');
   }
 }
